@@ -106,7 +106,7 @@
             // 
             // progress
             // 
-            this.progress.Location = new System.Drawing.Point(137, 179);
+            this.progress.Location = new System.Drawing.Point(137, 211);
             this.progress.Name = "progress";
             this.progress.Size = new System.Drawing.Size(416, 23);
             this.progress.TabIndex = 7;
@@ -115,7 +115,7 @@
             // lbl_a_converter
             // 
             this.lbl_a_converter.AutoSize = true;
-            this.lbl_a_converter.Location = new System.Drawing.Point(68, 183);
+            this.lbl_a_converter.Location = new System.Drawing.Point(68, 215);
             this.lbl_a_converter.Name = "lbl_a_converter";
             this.lbl_a_converter.Size = new System.Drawing.Size(62, 13);
             this.lbl_a_converter.TabIndex = 8;
@@ -125,7 +125,7 @@
             // lbl_progresso
             // 
             this.lbl_progresso.AutoSize = true;
-            this.lbl_progresso.Location = new System.Drawing.Point(145, 212);
+            this.lbl_progresso.Location = new System.Drawing.Point(145, 244);
             this.lbl_progresso.Name = "lbl_progresso";
             this.lbl_progresso.Size = new System.Drawing.Size(49, 13);
             this.lbl_progresso.TabIndex = 9;
@@ -134,7 +134,7 @@
             // 
             // btn_cancelar
             // 
-            this.btn_cancelar.Location = new System.Drawing.Point(277, 208);
+            this.btn_cancelar.Location = new System.Drawing.Point(277, 240);
             this.btn_cancelar.Name = "btn_cancelar";
             this.btn_cancelar.Size = new System.Drawing.Size(118, 23);
             this.btn_cancelar.TabIndex = 10;
@@ -158,16 +158,17 @@
             // 
             // lbl_atual
             // 
+            this.lbl_atual.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_atual.Location = new System.Drawing.Point(12, 145);
             this.lbl_atual.Name = "lbl_atual";
-            this.lbl_atual.Size = new System.Drawing.Size(541, 23);
+            this.lbl_atual.Size = new System.Drawing.Size(541, 63);
             this.lbl_atual.TabIndex = 12;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(587, 251);
+            this.ClientSize = new System.Drawing.Size(573, 282);
             this.Controls.Add(this.lbl_atual);
             this.Controls.Add(this.chk_remover_numeracao);
             this.Controls.Add(this.btn_cancelar);

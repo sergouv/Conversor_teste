@@ -190,7 +190,9 @@ namespace conversorDocpdf
                 }
                 if (!File.Exists(caminhoPDF) || chk_replace.Checked == true)
                 {
-                    nome = ""+caminhoPDF;
+                    //nome = ""+caminhoPDF;
+                    nome = textoLabel(  caminhoPDF);
+
                     Document docWord = appWord.Documents.Open(caminho);
                     docWord.ExportAsFixedFormat(caminhoPDF, WdExportFormat.wdExportFormatPDF);
                     docWord.Close(false); //Sair sem guardar (alguns modulos davam erros ao fechar)
@@ -270,6 +272,18 @@ namespace conversorDocpdf
                 total += ContarFicheirosConverter(subPasta.FullName);
             }
             return total;
+        }
+
+        private string textoLabel(string txt)
+        {
+            string[] t=txt.Split('\\');
+            string final = "Processando:\n"+"  Manual: " + t[t.Length - 2] + "\n  Modulo: " + t[t.Length - 1].Replace(".pdf","");
+            return final;
+
+
+
+
+
         }
     }
 }
