@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conversorDocpdf", "conversorDocpdf\conversorDocpdf.csproj", "{D0E82C88-6356-4969-B72E-C29168CA1232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestesUnitarios", "TestesUnitarios\TestesUnitarios.csproj", "{ADFAEB29-5F7F-45D7-BA50-47237CCAE2E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0E82C88-6356-4969-B72E-C29168CA1232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E82C88-6356-4969-B72E-C29168CA1232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E82C88-6356-4969-B72E-C29168CA1232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E82C88-6356-4969-B72E-C29168CA1232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFAEB29-5F7F-45D7-BA50-47237CCAE2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFAEB29-5F7F-45D7-BA50-47237CCAE2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFAEB29-5F7F-45D7-BA50-47237CCAE2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFAEB29-5F7F-45D7-BA50-47237CCAE2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94D10986-0BC5-4735-8AA4-FE92F181EFD1}
+	EndGlobalSection
+EndGlobal
